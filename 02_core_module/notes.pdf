@@ -1,0 +1,65 @@
+node js core modules:-
+====================================
+Node.js has a set of built-in modules that provide certain functionality. 
+These are the core modules. 
+Some of the commonly used core modules are:
+
+fs (File System): provides an API for interacting with the file system.
+http: provides an HTTP server and client for making HTTP requests.
+path: provides utility functions for working with file and directory paths.
+stream: provides a base API for implementing stream-based transforms.
+util: provides utility functions for formatting and parsing.
+
+
+To use a core module, you can use the require() function and pass the module name as a string. 
+For example:
+
+const fs = require('fs');
+
+
+list of core modules in the Node.js documentation:-
+=========================================================
+
+Here is the list of all the core modules in Node.js, as of version 14.15.0:
+
+assert
+async_hooks
+buffer
+child_process
+cluster
+console
+constants
+crypto
+dgram
+dns
+domain
+events
+fs
+http
+http2
+https
+inspector
+intl
+module
+net
+os
+path
+perf_hooks
+process
+punycode
+querystring
+readline
+repl
+stream
+string_decoder
+sys
+timers
+tls
+tty
+url
+util
+v8
+vm
+worker_threads
+zlib
+You can find more information about each of these modules in the Node.js documentation.

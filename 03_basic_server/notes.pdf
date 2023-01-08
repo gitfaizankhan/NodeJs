@@ -1,0 +1,24 @@
+To create a basic HTTP server in a Node.js program, you can use the following code:
+
+const http = require('http');
+
+const server = http.createServer((request, response) => {
+  response.writeHead(200, { 'Content-Type': 'text/plain' });
+  response.end('Hello World\n');
+});
+
+server.listen(3000, 'localhost', () => {
+  console.log('Server listening on http://localhost:3000');
+});
+
+
+
+This code uses the http core module to create an HTTP server that listens for incoming requests and sends a response back to the client.
+
+The server listens for requests on port 3000 and responds with a plain text message "Hello World".
+
+The createServer method takes a callback function that is called for each incoming request. The callback function receives two arguments: a request object that contains information about the incoming request, and a response object that you can use to send a response back to the client.
+
+The writeHead method is used to set the HTTP status code and the Content-Type header of the response. The end method is used to send the response body and end the response.
+
+The listen method is used to start the server and listen for incoming requests on a specific port and host. In this example, the server listens on port 3000 on the localhost.

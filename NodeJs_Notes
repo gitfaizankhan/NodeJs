@@ -2,3 +2,28 @@ Q-1. What is Node Js
 Ans:- Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code without a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.
 
 Node.js represents a "JavaScript everywhere" paradigm, unifying web application development around a single programming language, rather than different languages for server side and client side scripts.
+
+
+==========================================================================
+
+Q-2:- why do we use Nodejs ?
+Ans :- There are several reasons why Node.js is often used:
+
+Asynchronous and event-driven: 
+        Node.js is designed to build scalable network applications. Its asynchronous, non-blocking I/O model makes it lightweight and       
+        efficient,perfect for data-intensive real-time applications that run across distributed devices.
+
+Fast: 
+        Node.js is built on Chrome's V8 JavaScript engine, which makes it fast to execute code.
+
+Single threaded: 
+        Node.js uses a single threaded model with event looping. This makes it efficient, but it can also make it tricky to write code that is 
+        fully thread safe.
+
+Provides a rich library of various JavaScript modules: 
+        Node.js has a large and active community that has developed a number of libraries and modules to do just about anything you can think of.
+
+Easy to learn: 
+        If you are familiar with JavaScript, you can get started with Node.js quickly.
+
+Overall, Node.js is a popular choice for building high-performance, scalable network applications. It is especially well-suited for real-time web applications and APIs.

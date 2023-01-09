@@ -1,0 +1,19 @@
+{
+  "name": "package_json",
+  "version": "1.0.0",
+  "description": "this file is only for practices purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:/Users/faiza/OneDrive/Desktop/NodeJs/.git/"
+  },
+  "keywords": [
+    "no",
+    "keyword"
+  ],
+  "author": "Faizan Khan",
+  "license": "ISC"
+}

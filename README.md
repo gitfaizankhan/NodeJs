@@ -14,10 +14,10 @@
 
 # Node.js is single threaded
 
-**Node.js is a single-threaded runtime, which means that it runs on a single thread and uses a single CPU. However, it is designed to support asynchronous, non-blocking I/O, which allows it to handle many concurrent connections efficiently.
+***Node.js is a single-threaded runtime, which means that it runs on a single thread and uses a single CPU. However, it is designed to support asynchronous, non-blocking I/O, which allows it to handle many concurrent connections efficiently.
 In a traditional, blocking I/O model, a thread is occupied while waiting for an I/O operation to complete. This can lead to performance issues when handling a high number of concurrent connections, because each thread can only process one request at a time.
 In contrast, the non-blocking I/O model of Node.js allows it to handle many concurrent connections without the need for creating additional threads. When an I/O operation is initiated, the thread sends the request and then continues to execute the next line of code, rather than waiting for the response. When the response is received, an event is triggered, and a callback function is executed to handle the response.
-This allows Node.js to efficiently handle a high number of concurrent connections, but it also means that it is not well suited for certain types of tasks that are computationally intensive or that block the thread for a long time.**
+This allows Node.js to efficiently handle a high number of concurrent connections, but it also means that it is not well suited for certain types of tasks that are computationally intensive or that block the thread for a long time.***
 
 # what is nodemon package in Node.js
 
@@ -25,6 +25,8 @@ This allows Node.js to efficiently handle a high number of concurrent connection
 
 ## To use nodemon, you need to install it as a development dependency in your project:
 ### npm install --save-dev nodemon
+### npm i nodemon -g
+### npm i nodemon
 
 
 ## Once it is installed, you can use it to run your Node.js application by using the nodemon command instead of the node command:
@@ -36,3 +38,30 @@ This allows Node.js to efficiently handle a high number of concurrent connection
 ### nodemon --watch src index.js
 
 ***This will cause nodemon to only restart the application when changes are made to files in the src directory.***
+
+
+
+# Node.js is async
+**Node.js is designed to be asynchronous, non-blocking, and event-driven. This means that it is designed to handle a high number of concurrent connections efficiently, without creating additional threads or blocking the main thread.**
+**The asynchronous, event-driven model of Node.js also makes it well suited for building real-time, scalable applications, such as web servers, chat servers, and real-time data processing pipelines.**
+
+# HTTP response status code list
+
+***There are several HTTP response status codes that a server can return in response to a client's request.***
+
+ ### Here is a list of some of the most common ones:
+
+ ## 1xx (Informational):
+***100 Continue
+101 Switching Protocols***
+
+## 2xx (Successful):
+***
+200 OK
+201 Created
+202 Accepted
+203 Non-Authoritative Information
+204 No Content
+205 Reset Content
+206 Partial Content***
+

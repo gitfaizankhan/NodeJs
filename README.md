@@ -50,11 +50,11 @@ This allows Node.js to efficiently handle a high number of concurrent connection
 ***There are several HTTP response status codes that a server can return in response to a client's request.***
 
  ### Here is a list of some of the most common ones:
-
- ## 1xx (Informational):
+## --
+## 1xx (Informational):
 ### ***1. 100 Continue.***
 ### ***2. 101 Switching Protocols.***
-
+## --
 ## 2xx (Successful):
 ### ***1. 200 OK.***
 ### ***2. 201 Created.***
@@ -64,3 +64,13 @@ This allows Node.js to efficiently handle a high number of concurrent connection
 ### ***6. 205 Reset Content.***
 ### ***7. 206 Partial Content.***
 
+## -- 
+## 3xx (Redirection):
+
+### 300 Multiple Choices
+### 301 Moved Permanently
+### 302 Found
+### 303 See Other
+### 304 Not Modified
+### 305 Use Proxy
+### 307 Temporary Redirect

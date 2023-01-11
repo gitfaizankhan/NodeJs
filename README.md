@@ -52,16 +52,15 @@ This allows Node.js to efficiently handle a high number of concurrent connection
  ### Here is a list of some of the most common ones:
 
  ## 1xx (Informational):
-***100 Continue
-101 Switching Protocols***
+***100 Continue***
+***101 Switching Protocols***
 
 ## 2xx (Successful):
-***
-200 OK
-201 Created
-202 Accepted
-203 Non-Authoritative Information
-204 No Content
-205 Reset Content
-206 Partial Content***
+***200 OK***
+***201 Created***
+***202 Accepted***
+***203 Non-Authoritative Information***
+***204 No Content***
+***205 Reset Content***
+***206 Partial Content***
 

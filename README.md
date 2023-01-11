@@ -95,7 +95,7 @@ This allows Node.js to efficiently handle a high number of concurrent connection
 ### 416 Requested Range Not Satisfiable
 ### 417 Expectation Failed
 
-## -- 
+## 
 ## 5xx (Server Error):
 ### 500 Internal Server Error
 ### 501 Not Implemented

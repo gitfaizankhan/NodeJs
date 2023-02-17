@@ -108,3 +108,7 @@ This allows Node.js to efficiently handle a high number of concurrent connection
 
 
 
+# middlewares
+
+***Express.js is a routing and Middleware framework for handling the different routing of the webpage and it works between the request and response cycle. Middleware gets executed after the server receives the request and before the controller actions send the response. Middleware has the access to the request object, responses object, and next, it can process the request before the server send a response. An Express-based application is a series of middleware function calls.***
+***Find in details here==> https://www.geeksforgeeks.org/middleware-in-express-js/***

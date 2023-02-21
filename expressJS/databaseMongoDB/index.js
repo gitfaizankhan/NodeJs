@@ -1,15 +1,15 @@
-const { MongoClient } = require('mongodb');
-
-const url = "mongodb://0.0.0.0:27017/";
+const {MongoClient} = require('mongodb')
+const url = 'mongodb://0.0.0.0:27017/';
+const database = 'nodejs';
 const client = new MongoClient(url);
-const dbName = 'nodejs';
-async function main() {
-    let result = await client.connect();
-    console.log('Connected successfully to server');
-    const db = result.db(dbName);
-    const collection = db.collection('node');
-    let response = await collection.find({}).toArray();
-    console.log(response);
-  }
 
-main();
+async function getData(){
+  let result = await client.connect();
+  db = result.db(database);
+  collection = db.collection('node')
+  let data = await collection.find({}).toArray();
+  console.log(data);
+}
+
+
+getData();

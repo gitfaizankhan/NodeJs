@@ -1,0 +1,24 @@
+const mongoose = require('mongoose');
+
+
+
+const addData = async ()=>{
+    await mongoose.connect("mongodb://0.0.0.0:27017/e-com");
+    const productSchema = new mongoose.Schema({
+        name:String,
+        price:Number,
+        brand:String,
+        category:String
+    });
+    const productModel = mongoose.model("produs", productSchema);
+    let data = new productModel({
+        name:"max 100", 
+        price:20000,
+        brand: "nokia",
+        category:"mobile"
+    });
+    let result = await data.save();
+    console.log(result);
+}
+
+addData();
